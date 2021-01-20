@@ -34,7 +34,7 @@ device = 'cuda' if torch.cuda.is_available() else 'cpu'
 
 # Experiment 4.1 specifics 
 K = float(sys.argv[1])
-dataset_root = "../SAMPLE_Public_Dist_A/png_images/qpm"
+dataset_root = "./SAMPLE_Public_Dist_A/png_images/qpm"
 REPEAT_ITERS = 100
 DSIZE = 64
 
